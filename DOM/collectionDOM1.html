@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Dom collection Example</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<div>This is a paragraph</div>
+
+<script>
+	var i=0;
+	for(i=0; i<10; i++){
+		document.write("<div>This is a paragraph</div>");
+	}
+	var coll = document.getElementsByTagName('div');
+	var arr = toArray(coll);
+	function loopCollection() {
+	for (var count = 0; count < coll.length; count++) {
+	document.write("total " + count)
+	}
+
+}
+</script>

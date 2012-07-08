@@ -1,0 +1,18 @@
+<html>
+
+<body>
+<script >
+	var script = document.createElement("script")
+	script.type = "text/javascript";
+	//Firefox, Opera, Chrome, Safari 3+
+//	script.onload = function(){
+//		alert("Script loaded!");
+//	};
+	script.src = "file1.js";
+	document.getElementsByTagName("head")[0].appendChild(script);
+</script>
+</body>
+<head>
+	<title>Script Dynamic Example</title>
+</head>
+</html>

@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Script Dynamic Example</title>
+</head>
+<body>
+<script >
+var script = document.createElement("script")
+script.type = "text/javascript";
+//Internet Explorer
+script.onreadystatechange = function(){
+if (script.readyState == "loaded" || script.readyState == "complete"){
+script.onreadystatechange = null;
+alert("Script loaded.");
+}
+};
+script.src = "file1.js";
+document.getElementsByTagName("head")[0].appendChild(script);
+</script>
+</body>
+</html>

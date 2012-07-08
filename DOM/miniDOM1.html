@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>Script Example</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<p id="here">Hello world!</p>
+<button onclick="innerHTMLLoop1()">HTML DOM Loop</button>
+</body>
+<script>
+function innerHTMLLoop1() {
+	for (var count = 0; count < 15000; count++) {
+		document.getElementById('here').innerHTML += 'a';
+	}
+}
+</script>

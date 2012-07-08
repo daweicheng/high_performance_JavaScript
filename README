@@ -1,0 +1,14 @@
+High Performance JavaScript Tutorial
+
+This is a tutorial for high performance JavaScript programing. 
+You can find demos of them and compare which is the most efficient way. 
+
+Demos including:
+1. DataAccess
+2. DOM Scripting
+3. Dynamic Loading
+4. Grouping Script
+5. String operation
+6. If then else
+7. Browser UI Thread
+8. Web Workers
